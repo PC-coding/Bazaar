@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Header.css";
+import SearchIcon from '@material-ui/icons/Search';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 
 export default function Navbar(){
     return(
@@ -14,6 +16,8 @@ export default function Navbar(){
                 <input
                 className='header_searchInput'
                 type='text' />
+                <SearchIcon 
+                className='header_searchIcon'/>
             </div>
 
 
@@ -44,7 +48,11 @@ export default function Navbar(){
                         Prime
                     </span>
                 </div>
-
+            
+            <div className='header_optionBasket'>
+                <ShoppingBasketIcon />
+                <span className= 'header_optionLineTwo header_basketCount'>0</span>
+            </div>
 
 
             </div>
