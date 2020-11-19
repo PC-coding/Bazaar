@@ -2,14 +2,16 @@ import React from 'react';
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
+import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Header/Bazaar_b.png';
 
 export default function Navbar(){
     return(
         <div className='header'>
-            <img
+            {/* <img
             className='header_logo'
             src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
-            />
+            /> */}
+            <img src={img} className='header_logo'/>
             
 
             <div className='header_search'>
