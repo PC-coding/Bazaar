@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Home.css";
 import Product from '../Products/Product';
-// import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Home/dark_wood.png';
 
 export default function Home() {
     return(

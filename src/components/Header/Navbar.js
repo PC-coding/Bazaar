@@ -3,16 +3,14 @@ import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Header/Bazaar_b.png';
+import { Link } from 'react-router-dom';
 
 export default function Navbar(){
     return(
         <div className='header'>
-            {/* <img
-            className='header_logo'
-            src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
-            /> */}
-            <img src={img} className='header_logo'/>
-            
+            <Link to='/'>
+                <img src={img} className='header_logo'/>
+            </Link>
 
             <div className='header_search'>
                 <input
@@ -50,11 +48,12 @@ export default function Navbar(){
                         Prime
                     </span>
                 </div>
-            
-            <div className='header_optionBasket'>
-                <ShoppingBasketIcon />
-                <span className= 'header_optionLineTwo header_basketCount'>0</span>
-            </div>
+            <Link to='/checkout'>
+                <div className='header_optionBasket'>
+                    <ShoppingBasketIcon />
+                    <span className= 'header_optionLineTwo header_basketCount'>0</span>
+                </div>
+            </Link>
 
 
             </div>
