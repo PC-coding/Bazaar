@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import NavBar from './components/Header/Navbar';
@@ -10,14 +9,18 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <NavBar />
         <Switch>
+          <Route path='/login'>
+            <h1>Login page</h1>
+          </Route>
 
           <Route path='/checkout'>
+            <NavBar />
             <Checkout />
           </Route>
 
           <Route path='/'>
+            <NavBar />
             <Home />
           </Route>
 
