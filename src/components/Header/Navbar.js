@@ -4,8 +4,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Header/Bazaar_b.png';
 import { Link } from 'react-router-dom';
+import { useStateValue } from '../Util/StateProvider';
 
 export default function Navbar(){
+    const [{ basket, user }, dispatch] = useStateValue();
+
     return(
         <div className='header'>
             <Link to='/'>
@@ -51,7 +54,9 @@ export default function Navbar(){
             <Link to='/checkout'>
                 <div className='header_optionBasket'>
                     <ShoppingBasketIcon />
-                    <span className= 'header_optionLineTwo header_basketCount'>0</span>
+                    <span className= 'header_optionLineTwo header_basketCount'>
+                    {basket?.length}
+                    </span>
                 </div>
             </Link>
 
