@@ -1,14 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
+import img from './Bazaar_transparent.png';
+import { StateProvider } from '../Util/StateProvider';
 
 export default function Login(){
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const signIn = e => {
+        e.preventDefault()
+    }
+    
+    const register = e => {
+        e.preventDefault();
+    }
     return(
         <div className='login'>
             <Link to='/'>
                 <img 
                 className='login_logo'
-                src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
+                // src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
+                src={img}
                 />
             </Link>
 
@@ -17,12 +30,18 @@ export default function Login(){
                 
                 <form>
                     <h5>E-mail</h5>
-                    <input type='text' />
+                    <input type='text' 
+                    value={email} onChange=
+                    {e => setEmail(e.target.value)} />
 
                     <h5>Password</h5>
-                    <input type='password' />
+                    <input type='password'
+                    value={password} onChange=
+                    {e => setPassword(e.target.value)} />
 
-                    <button className='login_signInButton'>Sign In</button>
+                    <button type='submit' 
+                    className='login_signInButton'>
+                    Sign In</button>
                 </form>
                 <p>
                     By signing-in you agree to Bazaar's Conditions of Use & Sale. Please
@@ -31,6 +50,7 @@ export default function Login(){
                 </p>
 
                 <button
+                onClick={register}
                 className='login_registerButton'>
                 Create your Amazon Account</button>
 
