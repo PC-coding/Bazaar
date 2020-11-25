@@ -5,10 +5,15 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Header/Bazaar_b.png';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../Util/StateProvider';
+import { auth } from '../Util/firebase';
 
 export default function Navbar(){
     const [{ basket, user }, dispatch] = useStateValue();
-
+    const handleAuthentication = () => {
+        if (user) {
+            auth.signOut();
+        }
+    }
     return(
         <div className='header'>
             <Link to='/'>
@@ -25,13 +30,14 @@ export default function Navbar(){
 
 
             <div className='header_nav'>
-                <Link to='/login'>
-                    <div className='header_option'>
+                <Link to={!user && '/login'}>
+                    <div onClick={handleAuthentication}
+                    className='header_option'>
                         <span className='header_optionLineOne'>
                             Hello Guest
                         </span>
                         <span className='header_optionLineTwo'>
-                            Sign In
+                            {user ? 'Sign Out' : 'Sign In'}
                         </span>
                     </div>
                 </Link>
