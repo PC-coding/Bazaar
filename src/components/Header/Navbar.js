@@ -30,7 +30,9 @@ export default function Navbar(){
 
 
             <div className='header_nav'>
-                <Link to={!user && '/login'}>
+                <Link 
+                style={{textDecoration:'None'}}
+                to={!user && '/login'}>
                     <div onClick={handleAuthentication}
                     className='header_option'>
                         <span className='header_optionLineOne'>
