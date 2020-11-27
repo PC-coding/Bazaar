@@ -4,7 +4,7 @@ import CheckoutProduct from "../Checkout/CheckoutProduct";
 
 function WishList() {
   const [{ wishlist, user }] = useStateValue();
-
+  
   return (
     <div className="wishlist">
       <img
