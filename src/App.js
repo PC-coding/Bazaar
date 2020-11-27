@@ -5,6 +5,7 @@ import NavBar from './components/Header/Navbar';
 import Home from './components/Home/Home';
 import Checkout from './components/Checkout/Checkout';
 import Login from './components/Login/Login';
+import WishList from './components/WishList/WishList';
 import { auth } from './components/Util/firebase';
 import { useStateValue } from './components/Util/StateProvider';
 
@@ -41,6 +42,11 @@ function App() {
           <Route path='/checkout'>
             <NavBar />
             <Checkout />
+          </Route>
+
+          <Route path='/wishlist'>
+            <NavBar />
+            <WishList />
           </Route>
 
           <Route path='/'>
