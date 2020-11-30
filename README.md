@@ -4,23 +4,26 @@ A web application engineered and designed to be a Amazon clone using React and G
 </p>
 
 # What I Learned
-<a href="https://bazaar-596f2.web.app/"> Check it out yourself by clicking here!</a>  
 <ul>
     <li>
-    x
+    Created user authentication and payment processing.
     </li>
     <li>
-    x
+    Created backend database using Google Firebase.
     </li>
     <li>
-    x
+    Created a wish list and cart that users can add/remove items from.
     </li>
     <li>
-    x
+    Deploying and hosting with Google Firebase. 
+    </li>
+    <li>
+    Styled and designed web layout with CSS and Material-UI.
     </li>
 </ul>
 
 # Demo
+<a href="https://bazaar-596f2.web.app/"> Check it out yourself by clicking here!</a>  
 ![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
 
 # Sources
