@@ -21,7 +21,7 @@ A web application engineered and designed to be a Amazon clone using React and G
 </ul>
 
 # Demo
-![Bazaar](https://media.giphy.com/media/9LfVEiXYumzravPtfA/giphy.gif)
+![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
 
 # Sources
 <a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>
