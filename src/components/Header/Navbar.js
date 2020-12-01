@@ -44,6 +44,7 @@ export default function Navbar(){
                     </div>
                 </Link>
                 <Link
+                style={{textDecoration:'None'}}
                 to='/orders'>
                     <div className='header_option'>
                         <span className='header_optionLineOne'>
@@ -64,7 +65,9 @@ export default function Navbar(){
                     </span>
                 </div>
 
-            <Link to='/checkout'>
+            <Link 
+            style={{textDecoration:'None'}}
+            to='/checkout'>
                 <div className='header_optionBasket'>
                     <ShoppingBasketIcon />
                     <span className= 'header_optionLineTwo header_basketCount'>

@@ -121,7 +121,7 @@ export default function Payment(){
                                         prefix={'$'}
                                     />
                                     <button disbaled={processing || disabled || succeeded}>
-                                        <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                                        <span>{processing ? <p>Processing...</p> : "Buy Now"}</span>
                                     </button>
                                 </div>
                                 {error && <div>{error}</div>}
