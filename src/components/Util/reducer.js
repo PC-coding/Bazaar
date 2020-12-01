@@ -22,12 +22,6 @@ export const initialState = {
           ...state,
           basket: []
         }
-        
-      case "ADD_TO_WISHLIST":
-        return {
-          ...state,
-          wishlist: [...state.wishlist, action.item],
-        };
 
       case "REMOVE_FROM_BASKET":
         const index = state.basket.findIndex(
