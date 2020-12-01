@@ -15,38 +15,38 @@ export default function Home() {
             <div className="home_row">
             <Product
                 id="12321341"
-                title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+                title="Apple iPhone 12 Pro Max (128GB, Graphite) [Locked] + Carrier Subscription"
                 price={11.96}
                 rating={5}
-                image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+                image="https://m.media-amazon.com/images/I/71XXJC7V8tL.jpg"
             />
             <Product
                 id="49538094"
-                title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-                price={239.0}
-                rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+                title="Apple MacBook Pro with Apple M1 Chip (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
+                price={1299.99}
+                rating={5}
+                image="https://images-na.ssl-images-amazon.com/images/I/71an9eiBxpL._AC_SL1500_.jpg"
             />
             </div>
 
             <div className="home_row">
             <Product
                 id="4903850"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+                title="Cillian Murphy Signed Tommy Shelby Portrait (LIMITED EDITION)"
                 price={199.99}
-                rating={3}
-                image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+                rating={5}
+                image="https://images-na.ssl-images-amazon.com/images/I/81FTs6eJ1nL._AC_SL1500_.jpg"
             />
             <Product
                 id="23445930"
-                title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-                price={98.99}
-                rating={5}
-                image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+                title="Banpresto DragonBall Super Ultra Instinct Goku"
+                price={48.99}
+                rating={4}
+                image="https://images-na.ssl-images-amazon.com/images/I/61YsIrlJPzL._AC_SL1000_.jpg"
             />
             <Product
                 id="3254354345"
-                title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+                title="Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
                 price={598.99}
                 rating={4}
                 image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
@@ -56,10 +56,10 @@ export default function Home() {
             <div className="home_row">
             <Product
                 id="90829332"
-                title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-                price={1094.98}
+                title="Samsung 34-Inch SJ55W Ultrawide Gaming Monitor (LS34J550WQNXZA) – 75Hz Refresh, WQHD Computer Monitor, 3440 x 1440p Resolution, 4ms Response, FreeSync, Split Screen, HDMI, Black"
+                price={399.99}
                 rating={4}
-                image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                image="https://images-na.ssl-images-amazon.com/images/I/91g-Y1B09EL._AC_SL1500_.jpg"
             />
             </div>
         </div>
