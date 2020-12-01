@@ -15,7 +15,6 @@ export default function Payment(){
     const elements = useElements();
 
     const [error, setError] = useState(null);
-    const [disabled, setDisabled] = useState(true);
     const [succeeded, setSucceeded] = useState(false);
     const [processing, setProcessing] = useState('');
     const [disabled, setDisabled] = useState(true);
@@ -32,6 +31,8 @@ export default function Payment(){
 
         getClientSecret();
     }, [basket])
+
+    console.log('The secret is >', clientSecret)
     
     const handleSubmit = async (event) => {
         event.preventDefault();
