@@ -3,7 +3,6 @@ import '/Users/tappy/Byte/Bazaar/bazaar/src/components/Checkout/Checkout.css';
 import Subtotal from './Subtotal';
 import { useStateValue } from '../Util/StateProvider';
 import CheckoutProduct from './CheckoutProduct';
-import FlipMove from 'react-flip-move';
 
 export default function Checkout() {
     
