@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Product.css";
 import { useStateValue } from '../Util/StateProvider';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 
 export default function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -10,19 +9,6 @@ export default function Product({ id, title, image, price, rating }) {
     // dispatch the item into the data layer
     dispatch({
       type: "ADD_TO_BASKET",
-      item: {
-        id: id,
-        title: title,
-        image: image,
-        price: price,
-        rating: rating,
-      },
-    });
-  };
-
-  const addToWishList = () => {
-    dispatch({
-      type: 'ADD_TO_WISHLIST',
       item: {
         id: id,
         title: title,
@@ -53,9 +39,6 @@ export default function Product({ id, title, image, price, rating }) {
       <img src={image} alt="" />
 
       <button className='button_basket' onClick={addToBasket}>Add to Basket</button>
-      <button className='button_wishlist' onClick={addToWishList}>
-        <FavoriteBorderIcon />
-      </button>
     </div>
   );
 }

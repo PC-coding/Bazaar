@@ -8,7 +8,7 @@ export default function Home() {
             <div className="home_container">
             <img
             className="home_image"
-            src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+            src="https://images-na.ssl-images-amazon.com/images/G/01/prime/HOL20_P1_GWH5/HOL_V2/GW/V2/primeholiday_gw_dt_tallhero_3000x1200_holiday_engaged_en_v2._CB403512586_.jpg"
             alt=""
             />
 
@@ -66,3 +66,28 @@ export default function Home() {
       </div>
     )
 }
+
+// <div data-test="carousel" length="4" class="carousel carousel-fade z-depth-1" aria-label="carousel">
+//     <div data-test="carousel-inner" class="carousel-inner">
+//         <div data-test="carousel-item" class="carousel-item active carousel-slide-item" style="left: -100%; position: absolute;">
+//             <div class="view" data-test="view">
+//                 <img class="d-block w-100 home__image" src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt="First slide"></img>
+//              </div>
+//         </div>
+//         <div data-test="carousel-item" class="carousel-item active carousel-slide-item" style="left: -100%; position: absolute;">
+//             <div class="view" data-test="view">
+//                 <img class="d-block w-100 home__image" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Computers_1x._CB432469755_.jpg" alt="Second slide"></img>
+//             </div>
+//         </div>
+//         <div data-test="carousel-item" class="carousel-item active carousel-slide-item" style="left: -100%; position: absolute;">
+//             <div class="view" data-test="view">
+//                 <img class="d-block w-100 home__image" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Sports_en_US_1x._CB431860448_.jpg" alt="Second slide"></img>
+//             </div>
+//         </div>
+//         <div data-test="carousel-item" class="carousel-item active carousel-slide-item" style="left: 0px;">
+//             <div class="view" data-test="view">
+//                 <img class="d-block w-100 home__image" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg" alt="Third slide"></img>
+//             </div>
+//         </div>
+//     </div>
+// </div>
