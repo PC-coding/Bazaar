@@ -12,7 +12,7 @@ A web application engineered and designed to be a Amazon clone using React and G
     Created backend database using Google Firebase.
     </li>
     <li>
-    Created a wish list and cart that users can add/remove items from.
+    Created cart functionality in which users can add/remove items from.
     </li>
     <li>
     Deploying and hosting with Google Firebase. 
