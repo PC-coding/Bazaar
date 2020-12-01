@@ -27,6 +27,6 @@ A web application engineered and designed to be a Amazon clone using React and G
 ![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
 
 # Sources
-<a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>
-<a href=''> </a>  
+<a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>  
+<a href='https://firebase.google.com/docs/'>Google Firebase documentation </a>  
 <a href="https://material-ui.com/getting-started/installation/"> Material-UI documentation<a>  

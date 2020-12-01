@@ -49,7 +49,7 @@ export default function Navbar(){
                         Returns
                     </span>
                     <span className='header_optionLineTwo'>
-                        Orders
+                        & Orders
                     </span>
                 </div>
 

@@ -32,14 +32,14 @@ export default function Home() {
             <div className="home_row">
             <Product
                 id="4903850"
-                title="Cillian Murphy Signed Tommy Shelby Portrait (LIMITED EDITION)"
+                title="Cillian Murphy Exclusively Signed Tommy Shelby Plaque | Peaky Blinders (LIMITED EDITION)"
                 price={199.99}
                 rating={5}
                 image="https://images-na.ssl-images-amazon.com/images/I/81FTs6eJ1nL._AC_SL1500_.jpg"
             />
             <Product
                 id="23445930"
-                title="Banpresto DragonBall Super Ultra Instinct Goku"
+                title="Banpresto Dragonball Super Ultra Instinct Goku Figure"
                 price={48.99}
                 rating={4}
                 image="https://images-na.ssl-images-amazon.com/images/I/61YsIrlJPzL._AC_SL1000_.jpg"
