@@ -2,7 +2,6 @@ import React from 'react';
 import "./Header.css";
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import img from '/Users/tappy/Byte/Bazaar/bazaar/src/components/Header/Bazaar_b.png';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../Util/StateProvider';
@@ -62,12 +61,6 @@ export default function Navbar(){
                         Prime
                     </span>
                 </div>
-
-            <Link to='/wishlist'>
-                <div className='header_optionLineOne'>
-                    <BookmarkBorderIcon />
-                </div>
-            </Link>
 
             <Link to='/checkout'>
                 <div className='header_optionBasket'>
