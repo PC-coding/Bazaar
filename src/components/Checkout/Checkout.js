@@ -3,7 +3,7 @@ import '/Users/tappy/Byte/Bazaar/bazaar/src/components/Checkout/Checkout.css';
 import Subtotal from './Subtotal';
 import { useStateValue } from '../Util/StateProvider';
 import CheckoutProduct from './CheckoutProduct';
-
+import FlipMove from 'react-flip-move';
 
 export default function Checkout() {
     
@@ -21,7 +21,6 @@ return (
         <div>
           <h3>Hello, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
-
           {basket.map(item => (
             <CheckoutProduct
               id={item.id}
@@ -30,8 +29,7 @@ return (
               price={item.price}
               rating={item.rating}
             />
-          ))}
-
+            ))}
         </div>
       </div>
 
