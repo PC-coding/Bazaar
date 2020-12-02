@@ -26,6 +26,32 @@ A web application engineered and designed to be a Amazon clone using React and G
 <a href="https://bazaar-596f2.web.app/"> Check it out yourself by clicking here!</a>  
 ![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
 
+# User Guide 
+<p>
+Users can either use this application on their own accord and follow their own decisions or use this comprehensive guide:
+
+
+<strong>Guide:</strong>  
+
+Users can browse through the shop as is or sign up/in through the links in the navigation bar above.   
+
+After signing up/in, users can go back to the homepage and add items to their cart.  
+
+Users can then navigate to the cart located on the top right. 
+
+After making sure all the selected items are in the cart, users can proceed to checkout.  
+
+In checkout, users can use the following:
+ * Card Number: 4242 4242 4242 4242
+ * Date: 04/24
+ * CVC: 242
+ * Zip Code: 42424
+
+ After filling in your information, users can press 'buy now' to be redirected to the Orders page.
+
+ Enjoy the App :)
+</p>
+
 # Sources
 <a href="https://reactjs.org/docs/getting-started.html"> React documentation <a>  
 <a href='https://firebase.google.com/docs/'>Google Firebase documentation </a>  
