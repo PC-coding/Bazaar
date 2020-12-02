@@ -72,7 +72,7 @@ export default function Login(){
                 <button
                 onClick={register}
                 className='login_registerButton'>
-                Create your Amazon Account</button>
+                Create your Bazaar Account</button>
 
             </div>
 
