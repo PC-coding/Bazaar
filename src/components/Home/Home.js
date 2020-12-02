@@ -30,7 +30,7 @@ export default function Home() {
             <Product
                 id="12321341"
                 title="Apple iPhone 12 Pro Max (128GB, Graphite) [Locked] + Carrier Subscription"
-                price={11.96}
+                price={1099.99}
                 rating={5}
                 image="https://m.media-amazon.com/images/I/71XXJC7V8tL.jpg"
             />

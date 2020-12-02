@@ -1,6 +1,16 @@
 # Bazaär
 <p>
-A web application engineered and designed to be a Amazon clone using React and Google Firebase. This app was created to gain knowledge in firebase and was just an interest of mine for some time now. 
+A web application engineered and designed to be an Amazon clone using React and Google Firebase.  
+
+Functionalities include:  
+* Full e-commerce functionality.
+* Backend database with Firebase.
+* Add + remove items from cart.
+* User authentication and signup. 
+* Checkout page and payment processing with Stripe.
+* Orders page that keeps track of previous payments.
+ 
+This app was engineered to gain knowledge on using firebase in full stack applications and was a fun project to design overall. 
 </p>
 
 # What I Learned
@@ -28,10 +38,9 @@ A web application engineered and designed to be a Amazon clone using React and G
 
 # User Guide 
 <p>
-Users can either use this application on their own accord and follow their own decisions or use this comprehensive guide:
-
-
-<strong>Guide:</strong>  
+Users can either use this application on their own accord and follow their own decisions or use this comprehensive <strong>guide</strong>:
+<br>
+<br>
 
 Users can browse through the shop as is or sign up/in through the links in the navigation bar above.   
 
