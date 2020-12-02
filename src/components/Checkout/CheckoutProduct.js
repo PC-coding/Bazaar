@@ -1,6 +1,7 @@
 import React from 'react'
 import './CheckoutProduct.css';
 import { useStateValue } from '../Util/StateProvider';
+import RemoveShoppingCartIcon from '@material-ui/icons/RemoveShoppingCart';
 
 export default function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
     const [{ basket }, dispatch] = useStateValue();
@@ -31,7 +32,9 @@ export default function CheckoutProduct({ id, image, title, price, rating, hideB
                     ))}
                 </div>
                 {!hideButton && (
-                    <button onClick={removeFromBasket}>Remove from Basket</button>
+                    <button onClick={removeFromBasket}>
+                        <RemoveShoppingCartIcon />
+                        Remove from Basket</button>
                 )}
             </div>
         </div>
