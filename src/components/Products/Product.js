@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Product.css";
 import { useStateValue } from '../Util/StateProvider';
-import { ShoppingCart } from '@material-ui/icons';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 export default function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -40,8 +40,8 @@ export default function Product({ id, title, image, price, rating }) {
       <img src={image} alt="" />
 
       <button className='button_basket' onClick={addToBasket}>
-        <ShoppingCart/>
-        Add to Basket</button>
+        <AddShoppingCartIcon/>
+        Add to Cart</button>
     </div>
   );
 }
