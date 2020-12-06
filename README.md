@@ -34,7 +34,7 @@ This app was engineered to gain knowledge on using firebase in full stack applic
 
 # Demo
 <a href="https://bazaar-596f2.web.app/"> Check it out yourself by clicking here!</a>  
-![Bazaar](https://media.giphy.com/media/17BF82waniz4ndE1UW/giphy.gif)
+![Bazaar](https://media.giphy.com/media/JzJufT92AmwN7fWbf9/giphy.gif)
 
 # User Guide 
 <p>
